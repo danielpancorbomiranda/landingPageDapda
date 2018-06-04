@@ -1,0 +1,73 @@
+    @font-face {
+        font-family: miFuente;
+        src: url('./../_fuentes/Dosis-Regular.ttf');
+    }
+    
+    * {
+        font-family: miFuente;
+    }
+    /***********************
+    MI CSS
+    ***********************/
+    
+    header.banner {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    span.x {
+        float: right;
+        color: green;
+        font-weight: bolder;
+        cursor: pointer;
+        color: darkred;
+    }
+    
+    div#principal {
+        margin: auto;
+        width: 75%;
+    }
+    
+    div#principal div.margen {
+        margin-bottom: 2%;
+    }
+    
+    #cajaErrores p {
+        color: darkred;
+    }
+    
+    footer {
+        margin-top: 3%;
+        padding: 3%;
+        background-color: #282828;
+    }
+    
+    footer span,
+    footer a {
+        color: white;
+    }
+    
+    footer span.opel {
+        color: grey;
+    }
+    
+    input.enviar {
+        margin: 0.8%;
+        background-color: #F7D900;
+        padding: 1%;
+        color: black;
+        font-weight: bolder;
+        min-width: 15%;
+    }
+    
+    .form-control {
+        border-radius: 0;
+    }
+    
+    .nuevocolorgris {
+        background-color: #DDDD;
+    }
+    
+    .centro {
+        text-align: center;
+    }
